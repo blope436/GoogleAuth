@@ -1,11 +1,11 @@
 <template>
-<div class="flex items-center justify-center text-yellow-800 text-5xl text-center bg-purple-200">
-<img class="w-40" src="/src/assets/contact2.png" alt="Contacts Image"/>
+<div class="flex items-center justify-center text-green-800 text-5xl text-center bg-purple-200">
+<img class="w-40" src="/src/assets/contactnew.png" alt="Contacts Image"/>
 <h1>Contact Information</h1>
 </div>
-<div class="text-red-900">
+<div class="text-pink-500">
 <h3 class="py-5 text-center text-4xl">Feel free to contact us! All information is located below:</h3>
-<img class="mx-auto w-80" src="/src/assets/contactTop.png"/>
+<img class="mx-auto w-80" src="/src/assets/contact3.png"/>
 <div class="py-8 mx-auto text-center text-4xl">
     <ul>
         <li>
@@ -41,7 +41,7 @@
 
      <ul class="py-2 text-center text-2xl">
         <li>
-            <img class="mx-auto w-80" src="https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png"/>
+            <img class="mx-auto w-80" src="/src/assets/email.png"/>
             <a href = "mailto: onlineMarketPlace@gmail.com">Send Email: onlineMarketPlace@gmail.com</a>
         </li>
     </ul>

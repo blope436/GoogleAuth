@@ -1,9 +1,9 @@
 <template>
-<div class="flex items-center justify-center text-yellow-800 text-5xl text-center bg-purple-200">
-<img class="w-40" src="/src/assets/itemsListTop.png" alt="Items Image"/>
+<div class="flex items-center justify-center text-green-800 text-5xl text-center bg-purple-200">
+<img class="w-40" src="/src/assets/newitemstop.png" alt="Items Image"/>
 <h1>Items</h1>
 </div>
-<div class="py-5 text-center text-red-900">
+<div class="py-5 text-center text-pink-500">
     <h3 class=" text-4xl">Contact us for more Info!</h3>
     <ul class="py-5 text-2xl">
         <li>IMAC- Price depends on version and hardware included</li>

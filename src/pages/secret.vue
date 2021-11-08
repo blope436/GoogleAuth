@@ -1,5 +1,10 @@
 <template>
-<p class="text-red-900 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatum accusamus cum officia tempore sed. Nostrum, harum quo quod maiores voluptas possimus unde minus iste ut incidunt modi assumenda quasi.
+<div class="text-center py-7 text-pink-500 text-5xl">
+<h2>This is a secret page. Verified user are the only ones allowed to view the secret page!</h2>
+<img class="mx-auto w-80 py-10" src="/src/assets/secret.png" alt="Secret Image"/>
+</div>
+<p class="text-pink-500 text-2xl">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatum accusamus cum officia tempore sed. Nostrum, harum quo quod maiores voluptas possimus unde minus iste ut incidunt modi assumenda quasi.
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis, doloribus minima est amet blanditiis, minus reprehenderit ducimus ab a repudiandae reiciendis corporis! Facilis dolore at, provident non blanditiis doloremque.
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ipsa aliquid quam quis et labore modi ad fugiat ipsum nihil ab consectetur, natus rerum fuga magni quibusdam nemo dolore. Illum.
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque atque culpa earum ut asperiores consectetur. Nemo quo quaerat veritatis eum consequuntur ratione, atque illum vero aut. Quo, rem pariatur.

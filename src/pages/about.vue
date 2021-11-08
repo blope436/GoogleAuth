@@ -1,9 +1,9 @@
 <template>
-<div class="flex items-center justify-center text-yellow-800 text-5xl text-center bg-purple-200">
-<img class="w-40" src="/src/assets/aboutTop.png" alt="About Image"/>
+<div class="flex items-center justify-center text-green-800 text-5xl text-center bg-purple-200">
+<img class="w-40" src="/src/assets/abouttop2.png" alt="About Image"/>
 <h1>About</h1>
 </div>
-<div class="text-red-900 py-5 px-80 text-2xl">
+<div class="text-pink-500 py-5 px-80 text-2xl">
 <p class="py-10">
     This website contains items available for sale in our physical stores.
 </p>
@@ -22,6 +22,6 @@
 <p class="py-3">
     For more Information feel free to contact us by clicking on the Contact button above!
 </p>
-<img class="py-70 " src="/src/assets/cartAbout.png" />
+<img class="py-70 " src="/src/assets/shop.png" />
 </div>
 </template>

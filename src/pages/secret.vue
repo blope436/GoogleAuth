@@ -2,9 +2,18 @@
 import { onUnmounted, ref } from 'vue';
 import useChat from '../composable/useChat'
 
-const {messages, unsubscribe} = useChat();
+import useAuth from '../composable/useAuth';
+
+const {messages, unsubscribe, sendMessage} = useChat();
+
+const {user} = useAuth();
 
 const newMessage = ref("");
+
+const send = () => {
+    sendMessage(newMessage.value)
+    newMessage.value = ''
+}
 
 onUnmounted(() => {
     unsubscribe()
@@ -19,15 +28,15 @@ onUnmounted(() => {
 <h1 class="text-indigo-500 text-8xl text-center">OnlineMarketPlace Chat</h1>
 <div class="flex flex-col min-h-[900px] w-full mt-6 rounded-lg justify-between border-4 border-red-600">
     <ul class="p-5 space-y-5">
-        <li v-for="message in messages" :key="message.id" class="text-blue-600 text-4xl">
-            <div class="flex justify-between bg-green-200 px-5 py-3 rounded-2xl">
+        <li v-for="message in messages" :key="message.id" class="text-blue-600 text-4xl"> 
+            <div class="flex justify-between px-5 py-3 rounded-2xl" :class="user===message.author ? 'bg-green-200' : 'bg-indigo-300'">
                 <span>Message: {{message.text}} </span>
                 <span>Author Name: {{message.author}}</span>
             </div>
         </li>
     </ul>
     <div>
-        <input class="w-full min-h-[100px] p-5 rounded-xl focus:outline-none focus:bg-pink-300" type="text" placeholder="Type a message here" v-model="newMessage"/>
+        <input class="w-full min-h-[100px] p-5 rounded-xl focus:outline-none focus:bg-pink-300" type="text" placeholder="Type a message here" v-model="newMessage" @change="send"/>
     </div>
 </div>
 </template>

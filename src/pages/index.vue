@@ -10,7 +10,7 @@ const { isAuthenticated, user } = useAuth();
 <h2 v-if="!isAuthenticated">, Welcome</h2>
 <h2 v-else class="text-5xl ">, Welcome {{user}}</h2>
 </div>
-<div class="container mx-auto text-pink-500">
+<div class="container mx-auto text-indigo-500">
 <div ><img class="px-80 py-3" src="/src/assets/welcome2.png" alt="Welcome IMG"></div>
 <div>
     <h3 class="text-4xl">Welcome to the Online MarketPlace. The best place to purchase electronic devices.</h3>

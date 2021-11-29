@@ -3,7 +3,7 @@
 <img class="w-40" src="/src/assets/contactnew.png" alt="Contacts Image"/>
 <h1>Contact Information</h1>
 </div>
-<div class="text-pink-500">
+<div class="text-indigo-500">
 <h3 class="py-5 text-center text-4xl">Feel free to contact us! All information is located below:</h3>
 <img class="mx-auto w-80" src="/src/assets/contact3.png"/>
 <div class="py-8 mx-auto text-center text-4xl">

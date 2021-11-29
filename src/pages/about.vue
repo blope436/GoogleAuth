@@ -3,7 +3,7 @@
 <img class="w-40" src="/src/assets/abouttop2.png" alt="About Image"/>
 <h1>About</h1>
 </div>
-<div class="text-pink-500 py-5 px-80 text-2xl">
+<div class="text-indigo-500 py-5 px-80 text-2xl">
 <p class="py-10">
     This website contains items available for sale in our physical stores.
 </p>

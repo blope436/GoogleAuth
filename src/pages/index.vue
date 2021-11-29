@@ -10,10 +10,10 @@ const { isAuthenticated, user } = useAuth();
 <h2 v-if="!isAuthenticated">, Welcome</h2>
 <h2 v-else class="text-5xl ">, Welcome {{user}}</h2>
 </div>
-<div class="container mx-auto text-indigo-500">
+<div class="container mx-auto text-indigo-500 border-4 border-green-500">
 <div ><img class="px-80 py-3" src="/src/assets/welcome2.png" alt="Welcome IMG"></div>
 <div>
-    <h3 class="text-4xl">Welcome to the Online MarketPlace. The best place to purchase electronic devices.</h3>
+    <h3 class="text-4xl border-4">Welcome to the Online MarketPlace. The best place to purchase electronic devices.</h3>
 </div>
 <h3 class="text-4xl py-12">Feel free to navigate through our website so that you can see the items we offer and learn more about us.</h3>
 <img class="px-80" src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/9688850f-f59a-4a8c-af90-686efeadba94"/>

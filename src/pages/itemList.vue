@@ -3,7 +3,7 @@
 <img class="w-40" src="/src/assets/newitemstop.png" alt="Items Image"/>
 <h1>Items</h1>
 </div>
-<div class="py-5 text-center text-indigo-500">
+<div class="py-5 text-center text-indigo-500 border-4 border-green-500">
     <h3 class=" text-4xl">Contact us for more Info!</h3>
     <ul class="py-5 text-2xl">
         <li>IMAC- Price depends on version and hardware included</li>
